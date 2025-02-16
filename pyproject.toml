@@ -6,11 +6,11 @@ authors = [
     {name = "viethungnguyen2002@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dependencies = [
-    "langgraph (>=0.2.73,<0.3.0) ; python_version >= \"3.12\" and python_version < \"4.0\"",
+    "langgraph (>=0.2.73,<0.3.0) ; python_version >= \"3.11\" and python_version < \"4.0\"",
     "fastapi (>=0.115.8,<0.116.0)",
-    "langchain-openai (>=0.3.6,<0.4.0) ; python_version >= \"3.12\" and python_version < \"4.0\"",
+    "langchain-openai (>=0.3.6,<0.4.0) ; python_version >= \"3.11\" and python_version < \"4.0\"",
     "pydantic (>=2.10.6,<3.0.0)",
     "pydantic-settings (>=2.7.1,<3.0.0)",
     "uvicorn (>=0.34.0,<0.35.0)",
