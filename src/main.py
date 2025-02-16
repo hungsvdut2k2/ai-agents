@@ -1,3 +1,12 @@
+import os
+from pathlib import Path
+
+# Add the project root to Python path
+import sys
+project_root = str(Path(__file__).parent.parent)
+if project_root not in sys.path:
+    sys.path.append(project_root)
+
 from fastapi import FastAPI
 from src.api.routes import agent
 from contextlib import asynccontextmanager
